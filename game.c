@@ -14,8 +14,8 @@ int main() {
             else
                 A[i][j]='.';
     for(int i=0;i<n+2;i++){
-        printf("\n");
+        printf("\n\n");
         for(int j=0;j<m+2;j++)
-            printf("%c  ",A[i][j]);
+            printf("%c    ",A[i][j]);
     }
 }
